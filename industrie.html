@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="index1.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Germania</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Introducere</a>
+          </li>
+          <li class="navbar__item">
+            <a href="reguli.html" class="navbar__links">Reguli de baza si job-uri</a>
+          </li>
+          <li class="navbar__item">
+            <a href="bucatarie.html" class="navbar__links">Bucataria</a>
+          </li>
+          <li class="navbar__item">
+            <a href="industrie.html" class="navbar__links">Industriile</a>
+          </li>
+          <li class="navbar__item">
+            <a href="transport.html" class="navbar__links">Transport</a>
+          </li>
+          <li class="navbar__item">
+            <a href="vizita.html" class="navbar__links">Locuri de vizitat</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      
+      <section class="content-section">
+        
+          <h3 class="small-header light">
+            Industria energetica</h3>
+          <table class="tablou">
+            <th><p>Hidrocentrale  pe raul Dunarea si Rin, zona Alpina</p>
+            <p><img src="http://drive.google.com/uc?export=view&id=1KRst2_c1YTzH6Yc9yJ_ptJxZD5azC_Le"></p></th>
+            <th><p>Centrale termoelectrice langa orasele mari ca Berlin
+              in apropiere de consumator 
+              </p>
+              <p><img src="http://drive.google.com/uc?export=view&id=1qm2-wwIwsujzaddeMNOCzy5nY75xtK8C"></p></th>
+            <th><p>Centrale atomice pe raurile mici Weser , Elba</p>
+              <p><img src="http://drive.google.com/uc?export=view&id=1n_-ClNi-MVTyC068YcSxWCb9NWAoMrfR"></p></th>
+          </table>
+      </section>
+      
+      <!-- Tehnologia -->
+      
+      <section class="content-section">
+          
+          <h3 class="small-header light">Industria constructoare de masini</h3>
+          <p class="bong"> 
+            <table class="tablou">
+              <th>
+            <p>Volkswagen-marcile ni aua dus popularitate, accesibile la pret</p>
+            <p><button class = "push-button" onclick="i1()">Exemplu</button>
+              <br>
+              <img id="i1" src="http://drive.google.com/uc?export=view&id=1tYiQL4uEEgAMRspc2ck2_G6wvJHSvKB7" style="display:none">
+              <script>
+              function i1() {
+                document.getElementById("i1").style.display = "block";
+              }
+              </script></p>
+            <p>Mercedes-Benz pe locul 2 cele mai procurate masini de catre germani</p>
+              <p><button class = "push-button" onclick="i2()">Exemplu</button>
+                <br>
+                <img id="i2" src="http://drive.google.com/uc?export=view&id=1nqAj_AyzdL2W9pZSnscJho10QlduEAZN" style="display:none">
+                <script>
+                function i2() {
+                  document.getElementById("i2").style.display = "block";
+                }
+                </script></p></th>
+          <th>   <p>3. BMW(Se intelege ca “Motorul bavarez funcționează”)</p>
+              <p><button class = "push-button" onclick="i3()">Exemplu</button>
+                <br>
+                <img id="i3" src="http://drive.google.com/uc?export=view&id=1HlE0tVhtl4Z0GXqaBqsilPGutCdvs78n" style="display:none">
+                <script>
+                function i3() {
+                  document.getElementById("i3").style.display = "block";
+                }
+                </script></p>
+           <p>4. Audi</p>
+              <p><button class = "push-button" onclick="i4()">Exemplu</button>
+                <br>
+                <img id="i4" src="http://drive.google.com/uc?export=view&id=1Q3YhgMysDYHTEC1aPWoJ7zinsJcMTJMN" style="display:none">
+                <script>
+                function i4() {
+                  document.getElementById("i4").style.display = "block";
+                }
+                </script></p>
+            <p>5. Porsche</p>
+              <p><button class = "push-button" onclick="i5()">Exemplu</button>
+                <br>
+                <img id="i5" src="http://drive.google.com/uc?export=view&id=1tt_RWF_3ZW3g--Bddn6HAoD6B7PzQVbt" style="display:none">
+                <script>
+                function i5() {
+                  document.getElementById("i5").style.display = "block";
+                }
+                </script></p></th>
+          </table>
+      </section>
+      <section class="content-section">
+          <h3 class="small-header light">Industria electrotehnica</h3>
+          <p class="small-text light"> 
+            Industria electrotehnică este un sector important al economiei din Germania, cu o mulțime de companii active în diferite domenii, cum ar fi producția de mașini și echipamente electrice, dispozitive electrice, componente și sisteme pentru industria auto și de transport, precum și producția de echipamente pentru energie regenerabilă. Această industrie oferă o gamă largă de locuri de muncă, de la ingineri și tehnicieni până la lucrători calificați în producție și logistică.
+            </p>
+         <img class="img"src="http://drive.google.com/uc?export=view&id=1dEE1uK_TlYZrY6Ja2hHrcO6HRFfhzCxQ" class="image">
+      </section>
+      <section class="content-section">
+          <img src="http://drive.google.com/uc?export=view&id=1o5Yln2nDfB23oiihEtNTpOjesWyY3j7A" alt="electric scooter" class="image">
+          <h3 class="small-header light">Industria petrolului</h3>
+          <p class="small-text light"> 
+            Industria petrolului este un sector important al economiei globale, care se ocupă cu explorarea, producția, rafinarea și comercializarea produselor petroliere, cum ar fi benzina, motorina, gazul lichefiat (GPL), uleiurile și alte produse petrochimice. Această industrie are o importanță strategică pentru multe țări, deoarece petrolul este o sursă importantă de energie și materie primă pentru o serie de alte industrii, cum ar fi producția de plastice, cauciucuri, medicamente, cosmetice și alte produse chimice.
+
+
+            </p>
+      </section>
+      <section class="content-section">
+          <img src="http://drive.google.com/uc?export=view&id=1XUOZP_drvrvqMSxHZrc86lIDf8vdC2Ux" alt="electric bike" class="image">
+          <h3 class="small-header light">Industria feroasa</h3>
+          <p class="small-text light">Industria feroasă din Germania este una dintre cele mai importante ramuri ale economiei germane. Această industrie are o tradiție îndelungată în Germania și este unul dintre principalii producători de oțel și alte produse din fier din Europa și din lume.
+            Materialele se extrag in Estul, vestul si sudul germaniei. Mai mult 90% din materialele utilizate sunt fier, mangan si cromite. Printre metalele neferoase se includ  Aluminiu si cupru bine dezvoltat, pe tot teritoriul tarii.
+            </p>
+      </section>
+    </section>
+    <section class="content-section">
+        <img src="http://drive.google.com/uc?export=view&id=1JJ5JwPVUrh6KrhtqJgVCnftsAfvPo4LB" alt="electric scooter" class="image">
+        <h3 class="small-header light">
+          Agricultura
+          </h3>
+        <p class="small-text light"> 
+          Principala ramura dezvoltata este creșterea bovinelor pentru lactate  si cultura cerealelor , în special grâu, orz, secară. Aproximativ 940.000 de persoane lucrează în agricultura germană, deci ca.1,4% din totalul populației lucrătoare. Lucrătorii în agricultură și horticultură: 500.200. În fiecare an vin aproximativ 300.000 de oameni în Germania pentru a strânge sparanghel, căpșuni, mere și castraveți. Activitatea sezonieră reprezintă aproximativ 60% din totalul lucrătorilor din agricultură. Majoritatea sezonierilor vin din Polonia, Bulgaria și România. Cea mai mare parte a suprafeței este folosită în proporție de 2/3 teren arabil și 1/3 pășune. Producția principală e constituita din : cereale, sfecla de zahăr, produse lactate, porci și bovine.</p>
+          <p class="small-text light">Principalele producții agricole sunt:</p>
+          <ul class="small-text light">
+            <li>sfeclă de zahăr , cu o producție de 25,5 milioane de tone în 2004, ceea ce face ca Germania 3 - lea  cel mai mare producător,</li>
+            <li>cartofi cu o producție de 13 milioane de tone, 7 - lea  din lume,</li>
+            <li>grâul cu o producție de 25,3 milioane tone, 6 - lea  din lume și ocupă aproape 20% din suprafețele cultivate,</li>
+            <li>orzul cu o producție de 13 milioane de tone, 3 - lea  în lume,</li>
+            <li>secară cu o producție de 3,8 milioane de tone, 3 - lea  în lume,</li>
+          </ul>
+    </section>
+     </main>
+    </body>
+    </html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Germania</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Introducere</a>
+          </li>
+          <li class="navbar__item">
+            <a href="reguli.html" class="navbar__links">Reguli de baza si job-uri</a>
+          </li>
+          <li class="navbar__item">
+            <a href="bucatarie.html" class="navbar__links">Bucataria</a>
+          </li>
+          <li class="navbar__item">
+            <a href="industrie.html" class="navbar__links">Industriile</a>
+          </li>
+          <li class="navbar__item">
+            <a href="transport.html" class="navbar__links">Transport</a>
+          </li>
+          <li class="navbar__item">
+            <a href="vizita.html" class="navbar__links">Locuri de vizitat</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="services">
+        <h1>Bucataria</h1>
+        <h2 class="bong"> Cârnaț</h2>
+        <p class="bing">Există în nenumărate forme și gusturi în Germania,cele mai populare: bratwurst sau cârnați prăjiți. Există mai mult de 40 de feluri de bratwurst german. Se servesc cu mustar si bere</p>
+        <img class="img_center" src="http://drive.google.com/uc?export=view&id=1wxpLZT6Ni8WdYycQ7fsiq3Zyoqi3G6bX">
+        <h2 class="bong">Varza murata </h2>
+        <p class="bing">În Germania, foarte populară este varza fiartă, călită şi murată. Ea a apărut pe teritoriul Germaniei cu mult timp în urmă şi de atunci îşi păstrează rolul său în bucataria germana. Varza verde se pune la murat şi este cunoscută sub numele de Sauerkraut, cea roşie se fierbe cu mere şi se numeşte Apfelrotkohl</p>
+        <img class="im"src="http://drive.google.com/uc?export=view&id=1aY8mH7aqSgkFLtrH5owvUiKYFFpvKc70">
+        <h2 class="bong">Döner kebab</h2>
+        <p class="bing">Döner kebab a fost introdus în Germania de imigranții turci în anii 1970. Unul dintre primii vânzători stradali a fost Kadir Nurman, care a început să ofere sandvișuri döner kebab la Grădina Zoologică din Berlinul de Vest în 1972, de unde felul de mâncare a luat mai întâi cu asalt atât Berlinul de Vest, cât și de Est și apoi restul Germaniei. De la începuturile sale umile din Berlin, când un döner kebab conținea doar carne, ceapă și puțină salată, s-a dezvoltat într-un fel de mâncare cu salată abundentă, legume (uneori la grătar) și o selecție de sosuri din care să alegeți.</p>
+        <button class = "push-button" onclick="b1()">Imagine demonstrativa</button>
+    <br>
+    <img id="b1" src="http://drive.google.com/uc?export=view&id=1hsHM6xn6g03M15IxK2gDtcBUYqhamjWO" style="display:none">
+    <script>
+    function b1() {
+      document.getElementById("b1").style.display = "block";
+    }
+    </script>
+      </div>
+      </body>
+      </html>
